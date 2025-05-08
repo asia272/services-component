@@ -1,4 +1,4 @@
-# Solution –  Component
+# Services  Component
 
 A responsive and interactive **services section** built using **React** and **custom CSS**. It displays a list of services offered, and allows users to dynamically explore details and benefits of each service.
 
