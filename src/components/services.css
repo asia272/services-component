@@ -5,6 +5,7 @@
 
 .services-inner-container {
     box-shadow: 0 2px 37px 0 rgba(0, 0, 0, .4);
+    display: flex;
 }
 
 .heading h1 {
@@ -38,6 +39,7 @@ strong {
     background-color: #000037;
     color: white !important;
     padding: 20px 10px;
+    min-width: 230px;
 }
 
 .services-list button {
@@ -53,6 +55,7 @@ strong {
     padding: 1rem;
     padding: 0.88rem 25px;
     color: #72749f;
+    flex: 1;
 }
 
 .display-services h2 {
@@ -130,13 +133,18 @@ ul li:before {
     outline: 1px solid #ff87fa;
     color: #ff87fa;
 }
-@media (max-width:450px) {
+@media(max-width:600px){
+.services-inner-container{
+    flex-direction: column;
+}
+}
+@media (max-width:550px) {
     .heading h1{
         font-size: 27px;
         text-align: center;
         margin: 1rem 0;
     }
   body{
-    padding: 0 1rem;
+    padding: 0 0;
   }
 }
