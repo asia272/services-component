@@ -1,6 +1,6 @@
-# Xeven Solution – Services Component
+# Solution –  Component
 
-A responsive and interactive **services section** built using **React** and **custom CSS**. It displays a list of services offered by Xeven Solutions, and allows users to dynamically explore details and benefits of each service.
+A responsive and interactive **services section** built using **React** and **custom CSS**. It displays a list of services offered, and allows users to dynamically explore details and benefits of each service.
 
 
 
