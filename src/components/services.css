@@ -1,0 +1,142 @@
+.services-outer-container {
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: #fdfbff;
+}
+
+.services-inner-container {
+    box-shadow: 0 2px 37px 0 rgba(0, 0, 0, .4);
+}
+
+.heading h1 {
+    margin: 2rem 0 2rem 0;
+    font-size: 29px;
+    color: #000037;
+    font-weight: 500;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    transform: translate(-25px);
+    gap: 4px;
+}
+.heading img{
+    width: 20px;
+}
+
+strong {
+    padding: 1rem;
+    background-color: red !important;
+    height: 100px;
+    width: 200px;
+}
+
+
+.services-list {
+ 
+    background-color: #000037;
+    color: white !important;
+    padding: 20px 10px;
+}
+
+.services-list button {
+    color: white;
+    display: block;
+    font-size: 15px;
+    padding: 10px !important;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.display-services {
+    padding: 1rem;
+    padding: 0.88rem 25px;
+    color: #72749f;
+}
+
+.display-services h2 {
+    font-weight: 700;
+    color: #000037;
+}
+
+.services-des {
+    margin: 1rem 0;
+    line-height: 25px;
+}
+
+ul {
+    margin-top: 1rem  ;
+}
+
+ul span {
+
+    font-weight: bolder;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 0px 0px 1.44rem;
+    line-height: 28px;
+    color: #72749f;
+    font-size: 17px;
+}
+
+ul li:before {
+    background-color: #000037;
+    content: " ";
+    display: block;
+    height: 8px;
+    margin-left: -23px;
+    transform: translateY(20px);
+    width: 8px;
+}
+
+.service-btn {
+    background-color: inherit !important;
+    display: block;
+    width: 100%;
+    text-align: start;
+}
+
+.service-btn:hover {
+    text-decoration: underline;
+
+}
+
+.active-services {
+    background-color: #72749f !important;
+    background-image: linear-gradient(192deg, #ff87fa 17%, #af3cff 100%);
+}
+
+.read-more {
+    background-image: linear-gradient(192deg, #ff87fa 17%, #af3cff 100%);
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-left: auto;
+    display: block;
+}
+.read-more a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 16px;
+}
+.read-more:hover{
+    background-color: white !important;
+    background-image: none;
+    outline: 1px solid #ff87fa;
+    color: #ff87fa;
+}
+@media (max-width:450px) {
+    .heading h1{
+        font-size: 27px;
+        text-align: center;
+        margin: 1rem 0;
+    }
+  body{
+    padding: 0 1rem;
+  }
+}
